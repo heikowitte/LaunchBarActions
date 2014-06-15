@@ -10,6 +10,8 @@
 	<string>de.heikowitte.LaunchBar.action.QueryCocoaDocs</string>
 	<key>LBTextInputTitle</key>
 	<string>Query</string>
+        <key>CFBundleIconFile</key>
+        <string>icon.jpeg</string>
 	<key>LBScripts</key>
 	<dict>
 		<key>LBDefaultScript</key>
@@ -31,7 +33,7 @@
 	<key>LBDescription</key>
 	<dict>
 		<key>LBSummary</key>
-		<string>Queries CocoaDocs</string>
+		<string>Queries the CocoaDocs database http://cocoadocs.org</string>
 		<key>LBAuthor</key>
 		<string>Heiko Witte</string>
 		<key>LBEmail</key>
