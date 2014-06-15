@@ -8,6 +8,8 @@
 	<string>1.0</string>
 	<key>CFBundleIdentifier</key>
 	<string>de.heikowitte.LaunchBar.action.QueryCocoaDocs</string>
+        <key>LBTextInputTitle</key>
+        <string>Query</string>
 	<key>LBScripts</key>
 	<dict>
 		<key>LBDefaultScript</key>
