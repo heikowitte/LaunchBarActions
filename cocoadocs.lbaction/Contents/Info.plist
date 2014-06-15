@@ -8,8 +8,8 @@
 	<string>1.0</string>
 	<key>CFBundleIdentifier</key>
 	<string>de.heikowitte.LaunchBar.action.QueryCocoaDocs</string>
-        <key>LBTextInputTitle</key>
-        <string>Query</string>
+	<key>LBTextInputTitle</key>
+	<string>Query</string>
 	<key>LBScripts</key>
 	<dict>
 		<key>LBDefaultScript</key>
@@ -22,8 +22,8 @@
 			<true/>
 			<key>LBRequiresArgument</key>
 			<true/>
-                        <key>LBLiveFeedbackEnabled</key>
-                        <true/>
+			<key>LBLiveFeedbackEnabled</key>
+			<true/>
 			<key>LBScriptName</key>
 			<string>default.rb</string>
 		</dict>
@@ -38,6 +38,8 @@
 		<string>heikowitte82@icloud.com</string>
 		<key>LBTwitter</key>
 		<string>@heikowitte</string>
+		<key>LBResult</key>
+		<string>List of matching CocoaDocs docsets</string>
 	</dict>
 </dict>
 </plist>
