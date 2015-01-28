@@ -13,7 +13,7 @@
 		<key>LBDefaultScript</key>
 		<dict>
 			<key>LBScriptName</key>
-			<string>default.rb</string>
+			<string>default.py</string>
                         <key>LBReturnsResult</key>
                         <true/>
 		</dict>

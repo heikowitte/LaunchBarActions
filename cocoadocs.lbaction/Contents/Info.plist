@@ -27,7 +27,7 @@
 			<key>LBLiveFeedbackEnabled</key>
 			<true/>
 			<key>LBScriptName</key>
-			<string>default.rb</string>
+			<string>default.py</string>
 		</dict>
 	</dict>
 	<key>LBDescription</key>
