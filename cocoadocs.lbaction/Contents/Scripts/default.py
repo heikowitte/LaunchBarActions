@@ -1,11 +1,18 @@
 #!/usr/bin/env python
-import urllib2
+# import requests
+from urllib import FancyURLopener
 import json
 import sys
 
 query = sys.argv[1]
+
+class MyOpener(FancyURLopener):
+    version = 'AppleWebKit/537.11 (KHTML, like Gecko) Safari/537.11'
+    
+site= "http://search.cocoapods.org/api/v1/pods.flat.hash.json?query={0}".format(query)
+o = MyOpener()
+results = json.loads(o.open(site).read())
 output = []
-results = json.loads(urllib2.urlopen("http://search.cocoapods.org/api/v1/pods.flat.hash.json?query={0}".format(query)).read())
 
 for item in results:
     itemOut = {}

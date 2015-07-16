@@ -2,16 +2,29 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>CFBundleName</key>
-	<string>Query CocoaDocs</string>
-	<key>CFBundleVersion</key>
-	<string>1.0</string>
+	<key>CFBundleIconFile</key>
+	<string>icon.jpeg</string>
 	<key>CFBundleIdentifier</key>
 	<string>de.heikowitte.LaunchBar.action.QueryCocoaDocs</string>
-	<key>LBTextInputTitle</key>
-	<string>Query</string>
-        <key>CFBundleIconFile</key>
-        <string>icon.jpeg</string>
+	<key>CFBundleName</key>
+	<string>CocoaDocs Search</string>
+	<key>CFBundleVersion</key>
+	<string>1.0</string>
+	<key>LBDebugLogEnabled</key>
+	<true/>
+	<key>LBDescription</key>
+	<dict>
+		<key>LBAuthor</key>
+		<string>Heiko Witte</string>
+		<key>LBResult</key>
+		<string>List of matching CocoaDocs docsets</string>
+		<key>LBSummary</key>
+		<string>Queries the CocoaDocs database http://cocoadocs.org</string>
+		<key>LBTwitter</key>
+		<string>@heikowitte</string>
+	</dict>
+	<key>LBResult</key>
+	<string>List of matching CocoaDocs docsets</string>
 	<key>LBScripts</key>
 	<dict>
 		<key>LBDefaultScript</key>
@@ -20,28 +33,23 @@
 			<array>
 				<string>string</string>
 			</array>
-			<key>LBReturnsResult</key>
+			<key>LBKeepWindowActive</key>
+			<true/>
+			<key>LBLiveFeedbackEnabled</key>
 			<true/>
 			<key>LBRequiresArgument</key>
 			<true/>
-			<key>LBLiveFeedbackEnabled</key>
+			<key>LBResultType</key>
+			<string>unknown</string>
+			<key>LBReturnsResult</key>
+			<true/>
+			<key>LBRunInBackground</key>
 			<true/>
 			<key>LBScriptName</key>
 			<string>default.py</string>
 		</dict>
 	</dict>
-	<key>LBDescription</key>
-	<dict>
-		<key>LBSummary</key>
-		<string>Queries the CocoaDocs database http://cocoadocs.org</string>
-		<key>LBAuthor</key>
-		<string>Heiko Witte</string>
-		<key>LBEmail</key>
-		<string>heikowitte82@icloud.com</string>
-		<key>LBTwitter</key>
-		<string>@heikowitte</string>
-		<key>LBResult</key>
-		<string>List of matching CocoaDocs docsets</string>
-	</dict>
+	<key>LBTextInputTitle</key>
+	<string>Search</string>
 </dict>
 </plist>
