@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleIdentifier</key>
+	<string>de.heikowitte.LaunchBar.action.DerivedDataCleaner</string>
+	<key>CFBundleName</key>
+	<string>Clean Derived Data</string>
+	<key>CFBundleVersion</key>
+	<string>1.0</string>
+	<key>LBAbbreviation</key>
+	<string>cdd</string>
+	<key>LBDescription</key>
+	<dict>
+		<key>LBAuthor</key>
+		<string>Heiko Witte</string>
+		<key>LBEmail</key>
+		<string></string>
+		<key>LBSummary</key>
+		<string>Deletes all contents of ~/Library/Developer/Xcode/DerivedData</string>
+		<key>LBWebsite</key>
+		<string></string>
+	</dict>
+	<key>LBScripts</key>
+	<dict>
+		<key>LBDefaultScript</key>
+		<dict>
+			<key>LBResultType</key>
+			<string>unknown</string>
+			<key>LBScriptName</key>
+			<string>default.sh</string>
+		</dict>
+	</dict>
+</dict>
+</plist>
