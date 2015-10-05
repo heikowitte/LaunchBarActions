@@ -9,7 +9,7 @@
 	<key>CFBundleName</key>
 	<string>CocoaDocs Search</string>
 	<key>CFBundleVersion</key>
-	<string>1.0</string>
+	<string>1.1</string>
 	<key>LBDebugLogEnabled</key>
 	<true/>
 	<key>LBDescription</key>
@@ -22,6 +22,12 @@
 		<string>Queries the CocoaDocs database http://cocoadocs.org</string>
 		<key>LBTwitter</key>
 		<string>@heikowitte</string>
+		<key>LBUpdateURL</key>
+		<string>https://raw.githubusercontent.com/heikowitte/LaunchBarActions/master/cocoadocs.lbaction/Contents/Info.plist</string>
+		<key>LBWebsiteURL</key>
+		<string>https://github.com/heikowitte/LaunchBarActions</string>
+		<key>LBChangelog</key>
+		<string>1.1: Support action versioning</string>
 	</dict>
 	<key>LBResult</key>
 	<string>List of matching CocoaDocs docsets</string>

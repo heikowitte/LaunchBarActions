@@ -7,7 +7,7 @@
 	<key>CFBundleName</key>
 	<string>Clean Derived Data</string>
 	<key>CFBundleVersion</key>
-	<string>1.0</string>
+	<string>1.1</string>
 	<key>LBAbbreviation</key>
 	<string>cdd</string>
 	<key>LBDescription</key>
@@ -18,8 +18,12 @@
 		<string></string>
 		<key>LBSummary</key>
 		<string>Deletes all contents of ~/Library/Developer/Xcode/DerivedData</string>
-		<key>LBWebsite</key>
-		<string></string>
+		<key>LBWebsiteURL</key>
+		<string>https://github.com/heikowitte/LaunchBarActions</string>
+		<key>LBUpdateURL</key>
+		<string>https://raw.githubusercontent.com/heikowitte/LaunchBarActions/master/Clean%20Derived%20Data.lbaction/Contents/Info.plist</string>
+		<key>LBChangelog</key>
+		<string>1.1: Support action versioning</string>
 	</dict>
 	<key>LBScripts</key>
 	<dict>
