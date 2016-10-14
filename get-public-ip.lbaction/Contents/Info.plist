@@ -5,7 +5,7 @@
 	<key>CFBundleName</key>
 	<string>Get public IP address</string>
 	<key>CFBundleVersion</key>
-	<string>1.0</string>
+	<string>1.1</string>
 	<key>CFBundleIdentifier</key>
 	<string>de.heikowitte.LaunchBar.action.GetPublicIPAddress</string>
 	<key>LBScripts</key>
@@ -28,6 +28,12 @@
 		<string>heikowitte82@icloud.com</string>
 		<key>LBTwitter</key>
 		<string>@heikowitte</string>
+		<key>LBUpdateURL</key>
+		<string>https://raw.githubusercontent.com/heikowitte/LaunchBarActions/master/get-public-ip.lbaction/Contents/Info.plist</string>
+		<key>LBWebsiteURL</key>
+		<string>https://github.com/heikowitte/LaunchBarActions</string>
+		<key>LBChangelog</key>
+		<string>1.1: Support action versioning</string>
 	</dict>
 </dict>
 </plist>
